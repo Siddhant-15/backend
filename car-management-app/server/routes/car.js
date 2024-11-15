@@ -2,7 +2,6 @@ const express = require('express');
 const Car = require('../models/Car');
 const auth = require('../middleware/authMiddleware');
 const upload = require('../middleware/multerConfig'); // Import Multer config
-const carController = require('../controllers/carController');
 const router = express.Router();
 
 // Create a new car (authenticated)
